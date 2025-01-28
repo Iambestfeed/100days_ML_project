@@ -41,13 +41,12 @@ cd 100day-ml-architecture
 ```bash
 conda create -n ml100 python=3.10
 conda activate ml100
-pip install -r requirements.txt
+conda install --yes --file requirements.txt
 ```
 
 3. **Daily Task Structure**:
-- 📁 `Day01_Linear_Regression`: Contains `numpy_implementation.ipynb` and dataset
+- 📁 `Day01_Linear_Regression`: Contains `numpy_implementation.ipynb`
 - 📖 **Goal**: Implement SGD from scratch
-- ✅ **Validation**: Compare with scikit-learn's implementation
 
 ## 🌟 Key Adjustments from Traditional Curricula
 
