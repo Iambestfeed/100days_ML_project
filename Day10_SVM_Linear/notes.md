@@ -1,7 +1,3 @@
-# Documentation for LinearSVM Implementation
-
----
-
 ## Problem
 
 Our goal is to implement a **Linear Support Vector Machine (SVM)** that minimizes **hinge loss** using **Stochastic Gradient Descent (SGD)** and incorporates **L2 regularization** to prevent overfitting. The SVM aims to maximize the margin between two classes for binary classification. The hinge loss is defined as:
